@@ -2,12 +2,12 @@ import './App.css'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import First from './components/First'
-import Parametro from './components/Parametro'
-import Filhos from './components/Filhos'
+import First from './components/basicos/First'
+import Parametro from './components/basicos/Parametro'
+import Filhos from './components/basicos/Filhos'
 import Card from './components/layout/Card'
-import Repeticao from './components/Repeticao'
-import Condicional from './components/Condicional'
+import Repeticao from './components/basicos/Repeticao'
+import Condicional from './components/basicos/Condicional'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default props => (
