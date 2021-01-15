@@ -7,17 +7,17 @@ export default props => {
     return (
         <div>
             <h2>O numero é { props.number }</h2>
-            <If test={props.number % 2 === 0}>
+            <If test={ (parseInt(props.number) % 2) === 0 }>
                 <span>Par</span>
             </If>
-            <If test={props.number % 2 === 1}>
+            <If test={ (parseInt(props.number) % 2) === 1 }>
                 <span>Impar</span>
             </If>
             
-            {/* { props.number % 2 == 0 ? 
+            {/* { props.number % 2 === 0 ? 
                 <span>Par</span> 
                 : <span>Impar</span>
-            } */} 
+            }  */}
         </div>
     )
 }
